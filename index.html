@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise - Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>SpendWise</h1>
+        <p>Manage your money. Track your spending. Save smarter.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <h2>Welcome to SpendWise!</h2>
+            <p>Take control of your finances by tracking your budget and expenses.</p>
+            <button onclick="startBudget()">Start Budget Tracking</button>
+        </section>
+
+        <section class="dashboard">
+            <div class="card">
+                <h3>Total Budget</h3>
+                <p id="budget">KES 0.00</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Expenses</h3>
+                <p id="expenses">KES 0.00</p>
+            </div>
+
+            <div class="card">
+                <h3>Remaining Balance</h3>
+                <p id="balance">KES 0.00</p>
+            </div>
+        </section>
+
+        <section class="instructions">
+            <h2>How It Works</h2>
+            <p>1. Click the button to enter your budget.</p>
+            <p>2. Enter your total expenses.</p>
+            <p>3. View your remaining balance in the dashboard.</p>
+            <p>4. Open the browser console to see detailed results.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SpendWise. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
